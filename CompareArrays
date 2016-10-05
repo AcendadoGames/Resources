@@ -6,7 +6,7 @@ function CompareArrays (x : Array[String], y : Array[String]) : Boolean
         }
         for (var i = 0; i < x.Count; i += 1)
         {
-            if(x.All.Current != y.All.Current)
+            if(x[i] != y[i])
             {
                 return false;    
             }
