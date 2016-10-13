@@ -1,0 +1,43 @@
+//Quicksort "Divive and Conquer" algorithm. It uses recursion
+    function ArraySorting(array : Array[Real3], top : Integer, bottom : Integer) 
+    {
+        var middle = 0;
+        if (top < bottom)
+        {
+            middle = this.Partition(array, top, bottom);
+            this.ArraySorting(array, top, middle);   // sort first section
+            this.ArraySorting(array, middle + 1, bottom);    // sort second section
+        }
+        return;
+    }
+    
+    //Function to determine the partitions
+    // partitions the array and returns the middle subscript
+    function Partition(array : Array[Real3], top : Integer, bottom : Integer) : Integer
+    {
+        var x = array[top];
+        var i = top - 1;
+        var j = bottom + 1;
+        var temp = Real3(0,0,0);
+        do
+        {
+            do      
+            {
+                j -= 1;
+            } while (x.X < array[j].X)
+
+            do  
+            {
+                i += 1;
+            } while (x.X > array[i].X)
+
+            if (i < j)
+            { 
+                temp = array[i];    
+                array[i] = array[j];
+                array[j] = temp;
+            }
+        } while (i < j)     
+        return j;           // returns middle subscript  
+    }
+
