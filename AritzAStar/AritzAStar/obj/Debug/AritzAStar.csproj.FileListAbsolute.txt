@@ -1,0 +1,9 @@
+C:\Users\ARITZ\Desktop\SimpleAStarExample\SimpleAStarExample\bin\Debug\AritzAStar.exe.config
+C:\Users\ARITZ\Desktop\SimpleAStarExample\SimpleAStarExample\bin\Debug\AritzAStar.exe
+C:\Users\ARITZ\Desktop\SimpleAStarExample\SimpleAStarExample\bin\Debug\AritzAStar.pdb
+C:\Users\ARITZ\Desktop\SimpleAStarExample\SimpleAStarExample\obj\Debug\AritzAStar.csprojResolveAssemblyReference.cache
+C:\Users\ARITZ\Desktop\SimpleAStarExample\SimpleAStarExample\obj\Debug\AritzAStar.exe
+C:\Users\ARITZ\Desktop\SimpleAStarExample\SimpleAStarExample\obj\Debug\AritzAStar.pdb
+C:\Users\ARITZ\Desktop\AritzAStar\AritzAStar\bin\Debug\AritzAStar.exe.config
+C:\Users\ARITZ\Desktop\AritzAStar\AritzAStar\obj\Debug\AritzAStar.exe
+C:\Users\ARITZ\Desktop\AritzAStar\AritzAStar\obj\Debug\AritzAStar.pdb
