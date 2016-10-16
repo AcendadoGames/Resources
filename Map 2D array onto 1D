@@ -1,0 +1,6 @@
+int array[width * height];
+
+int SetElement(int row, int col, int value)
+{
+   array[width * row + col] = value;  
+}
