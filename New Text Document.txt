@@ -1,0 +1,68 @@
+var v=100
+var theta=45
+var g=9.8
+var t
+var range
+var ymax
+
+
+function convertTheta(which){
+	if(which=="toRad"){
+		var thetaRad=theta*(Math.PI/180)
+		return thetaRad
+		}
+	if(which=="toDeg"){
+		var thetaDeg=theta*(180/Math.PI)
+		return thetaDeg
+		}
+	}
+
+function calcRYmaxT(){
+
+	function getData(){
+		return document.DATA.V.value
+		return document.DATA.THETA.value
+		}
+
+	v=document.DATA.V.value
+	theta=document.DATA.THETA.value
+
+	theta=convertTheta("toRad")
+
+	var vx=v*Math.cos(theta)
+	var vy=v*Math.sin(theta)
+
+	t=2*vy/g
+
+	range=vx*t
+
+	ymax=(vy*vy)/(2*g)
+
+	document.DATA.T.value=Math.round(100*t)/100
+	document.DATA.R.value=Math.round(100*range)/100
+	document.DATA.YMAX.value=Math.round(100*ymax)/100
+
+	}
+
+function calcVoThetaT(){
+
+	function getData(){
+		return document.DATA.R.value
+		return document.DATA.YMAX.value
+		}
+
+	range=document.DATA.R.value
+	ymax=document.DATA.YMAX.value
+
+	theta=Math.atan(4*ymax/range)
+
+	v=Math.sqrt(2*g*ymax)/Math.sin(theta)
+
+	t=(2*v*Math.sin(theta))/g
+
+	theta=convertTheta("toDeg")
+
+	document.DATA.T.value=Math.round(100*t)/100
+	document.DATA.THETA.value=Math.round(100*theta)/100
+	document.DATA.V.value=Math.round(100*v)/100
+	}
