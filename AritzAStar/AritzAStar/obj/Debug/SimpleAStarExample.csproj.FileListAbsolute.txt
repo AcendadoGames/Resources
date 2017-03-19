@@ -1,8 +1,0 @@
-C:\Users\ARITZ\Desktop\SimpleAStarExample\SimpleAStarExample\bin\Debug\SimpleAStarExample.exe.config
-C:\Users\ARITZ\Desktop\SimpleAStarExample\SimpleAStarExample\bin\Debug\SimpleAStarExample.exe
-C:\Users\ARITZ\Desktop\SimpleAStarExample\SimpleAStarExample\bin\Debug\SimpleAStarExample.pdb
-C:\Users\ARITZ\Desktop\SimpleAStarExample\SimpleAStarExample\obj\Debug\SimpleAStarExample.csprojResolveAssemblyReference.cache
-C:\Users\ARITZ\Desktop\SimpleAStarExample\SimpleAStarExample\obj\Debug\SimpleAStarExample.exe
-C:\Users\ARITZ\Desktop\SimpleAStarExample\SimpleAStarExample\obj\Debug\SimpleAStarExample.pdb
-C:\Users\ARITZ\Desktop\SimpleAStarExample\SimpleAStarExample\bin\Debug\Aritzito's Pathfinding.exe.config
-C:\Users\ARITZ\Desktop\SimpleAStarExample\SimpleAStarExample\bin\Debug\AritzAStar.exe.config
